@@ -1,5 +1,5 @@
 # 2022-COMP576-FinalProject
-Sophie Sun (ys97) Yixuan Liu(yl244) Mingjing Xu (mx12)
+Team member: Mingjing Xu (mx12) Sophie Sun (ys97) Yixuan Liu(yl244) Yufei Wang(yw116)
 ### 0) Overview
 This repository contains improved PyTorch implementations of SRGAN model on Covid-19 CT images. 
 
