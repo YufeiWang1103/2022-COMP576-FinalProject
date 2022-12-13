@@ -1,14 +1,12 @@
 import torch
 import os, argparse
 from srgan import SRGAN
-from edsr import EDSR
 from os.path import join
 from os import listdir
 import pdb
 os.environ['CUDA_VISIBLE_DEVICES']='0'
 """parsing and configuration"""
- # python main.py --model_name EDSR --save_dir result_edsr_res8_k3_lr1e-3 --data_dir ./test_part --test_dataset x2_guassian_k3_0.5 --mode predict
- # python main.py --data_dir ./test_part --test_dataset x2_guassian_k3_0.5 --save_dir result_srgan_k3_lr1e-3  --mode predict
+  # python main.py --data_dir ./test_part --test_dataset x2_guassian_k3_0.5 --save_dir result_srgan_k3_lr1e-3  --mode predict
 def parse_args():
     desc = "PyTorch implementation of SR collections"
     parser = argparse.ArgumentParser(description=desc)
