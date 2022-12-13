@@ -1,0 +1,2 @@
+average metric value is: 0.941
+std of metric value is: 0.010
